@@ -1,0 +1,65 @@
+.principal
+{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(97, 97, 233);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(6, 6, 100);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+.interna
+{
+ width: 100px;
+ height: 100px;
+ background-color: yellow;
+ border-radius: 50px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-items: center;
+ align-items: center;
+ align-content: center;
+}
+
+
+.menu
+{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 175px;
+    top: 0px;
+
+
+}
+.centralizado
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    
+}
+.menu 
+{
+    background-color: rgb(49, 79, 247);
+}
+.menu:hover
+{
+    background-color: black;
+    transition: 0.3s;
+}
